@@ -1,0 +1,131 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ploomes.console.teste/1.0.0": {
+        "dependencies": {
+          "Microsoft.OData.Client": "7.8.1",
+          "Microsoft.OData.Core": "7.8.1",
+          "Microsoft.OData.Edm": "7.8.1",
+          "Microsoft.Spatial": "7.8.1",
+          "Newtonsoft.Json": "12.0.3",
+          "System.Text.Json": "5.0.1"
+        },
+        "runtime": {
+          "ploomes.console.teste.dll": {}
+        }
+      },
+      "Microsoft.OData.Client/7.8.1": {
+        "dependencies": {
+          "Microsoft.OData.Core": "7.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OData.Client.dll": {
+            "assemblyVersion": "7.8.1.0",
+            "fileVersion": "7.8.1.11217"
+          }
+        }
+      },
+      "Microsoft.OData.Core/7.8.1": {
+        "dependencies": {
+          "Microsoft.OData.Edm": "7.8.1",
+          "Microsoft.Spatial": "7.8.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OData.Core.dll": {
+            "assemblyVersion": "7.8.1.0",
+            "fileVersion": "7.8.1.11217"
+          }
+        }
+      },
+      "Microsoft.OData.Edm/7.8.1": {
+        "dependencies": {
+          "System.Text.Json": "5.0.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OData.Edm.dll": {
+            "assemblyVersion": "7.8.1.0",
+            "fileVersion": "7.8.1.11217"
+          }
+        }
+      },
+      "Microsoft.Spatial/7.8.1": {
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Spatial.dll": {
+            "assemblyVersion": "7.8.1.0",
+            "fileVersion": "7.8.1.11217"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.3": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.3.23909"
+          }
+        }
+      },
+      "System.Text.Json/5.0.1": {
+        "runtime": {
+          "lib/netcoreapp3.0/System.Text.Json.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.220.61120"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ploomes.console.teste/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.OData.Client/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-z/2sZ35GtV5Hmt8ffAVkvfO/f6I5U2yp58OKV5DgqwQLZ3UlFl4PX5y28xEb10T2tyjrWlrSQCnYav4JUuiKsA==",
+      "path": "microsoft.odata.client/7.8.1",
+      "hashPath": "microsoft.odata.client.7.8.1.nupkg.sha512"
+    },
+    "Microsoft.OData.Core/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-4rPsrdf9K1vyxLMlmna+I+PHvdB0WcckzWjCWrch1JgFKvKbt8aWLL0JaIK7Xt6vX+BURAEDVptVYgjpQHXOWQ==",
+      "path": "microsoft.odata.core/7.8.1",
+      "hashPath": "microsoft.odata.core.7.8.1.nupkg.sha512"
+    },
+    "Microsoft.OData.Edm/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i9/X026hF74ONzOnHlRE6L97D3V2UqA67EIj2AKLLygSkxm+eiTOu+9eO1eg0Ik4h5Y++LCC96u0SjjqD0GT1A==",
+      "path": "microsoft.odata.edm/7.8.1",
+      "hashPath": "microsoft.odata.edm.7.8.1.nupkg.sha512"
+    },
+    "Microsoft.Spatial/7.8.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uNdy+tJ9VcGG7g0ubO9BSog9nCsjs+LWJ66Y1TQWeZ3atfGorowHih3SS52pDFp92UO5Mw3iwVtmeaI8y5qEtw==",
+      "path": "microsoft.spatial/7.8.1",
+      "hashPath": "microsoft.spatial.7.8.1.nupkg.sha512"
+    },
+    "Newtonsoft.Json/12.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-6mgjfnRB4jKMlzHSl+VD+oUc1IebOZabkbyWj2RiTgWwYPPuaK1H97G1sHqGwPlS5npiF5Q0OrxN1wni2n5QWg==",
+      "path": "newtonsoft.json/12.0.3",
+      "hashPath": "newtonsoft.json.12.0.3.nupkg.sha512"
+    },
+    "System.Text.Json/5.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/UM3UK1dXKl8Ybysg/21gM4S8DJgkR+yLU8JwqCVbuNqQNImelntgYFAN5QxR8sJJ1kMx//hOUdf0lltosi8cQ==",
+      "path": "system.text.json/5.0.1",
+      "hashPath": "system.text.json.5.0.1.nupkg.sha512"
+    }
+  }
+}
