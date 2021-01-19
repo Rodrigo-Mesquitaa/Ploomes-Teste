@@ -11,6 +11,7 @@ namespace ploomes.api.teste.Entidades
         public string Description { get; set; }
         public DateTime DateTime { get; set; }
         public int ContactId { get; set; }
+        public int DealId { get; set; }
         public List<OtherProperty> OtherProperties { get; set; }
     }
 }

@@ -25,6 +25,8 @@ namespace ploomes.api.teste.Services
                     data.Headers.Add("User-Key", HeaderConstants.UserKey);
                     var result = await client.PostAsync(HttpConstants.BaseUrlOdata + HttpConstants.DealUrlOdata, data);
                     return await result.Content.ReadAsStringAsync();
+
+
                 }
                 catch (Exception e)
                 {
@@ -33,14 +35,27 @@ namespace ploomes.api.teste.Services
                 }
             }
         }
-    
-
-
-
-public Deals Update(Deals deal)
+        public async Task<string> Update(Deals deals)
         {
-            return deal;
+
+            using (var client = new HttpClient())
+            {
+                try
+                {
+                    deals.Amount = 15000;
+                    var json = JsonConvert.SerializeObject(deals);
+                    var data = new StringContent(json, Encoding.UTF8, "application/json");
+                    data.Headers.Add("User-Key", HeaderConstants.UserKey);
+                    var result = await client.PatchAsync($"{HttpConstants.BaseUrlOdata}{HttpConstants.DealUrlOdata}({deals.Id})", data);
+                    return await result.Content.ReadAsStringAsync();
+                }
+                catch (Exception e)
+                {
+                    throw e;
+                }
+            }
         }
+
         public bool Win(int id)
         {
             return false;
